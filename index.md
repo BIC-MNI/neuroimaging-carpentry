@@ -36,17 +36,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -206,60 +195,6 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
-
-<hr/>
-
-
-{% comment %}
-SCHEDULE
-
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
-{% endcomment %}
-<h2 id="schedule">Schedule</h2>
-
-{% if page.carpentry == "swc" %}
-{% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
-
-{% comment %}
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-http://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-{% endcomment %}
-{% if page.collaborative_notes %}
-<p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
-
-<hr/>
-
 {% comment %}
 SYLLABUS
 
@@ -300,6 +235,43 @@ please preview your site before committing, and make sure to run
 <hr/>
 
 {% comment %}
+SCHEDULE
+
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
+{% endcomment %}
+<h2 id="schedule">Schedule</h2>
+
+{% if page.carpentry == "swc" %}
+{% include sc/schedule.html %}
+{% elsif page.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif page.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
+
+{% comment %}
+Collaborative Notes
+
+If you want to use an Etherpad, go to
+
+http://pad.carpentries.org/YYYY-MM-DD-site
+
+where 'YYYY-MM-DD-site' is the identifier for your workshop,
+e.g., '2015-06-10-esu'.
+{% endcomment %}
+{% if page.collaborative_notes %}
+<p id="collaborative_notes">
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+{% endif %}
+
+<hr/>
+
+
+
+{% comment %}
 SETUP
 
 Delete irrelevant sections from the setup instructions.  Each
@@ -309,7 +281,7 @@ and end easier to find.
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
-{% endcomment %}
+
 
 <h2 id="setup">Setup</h2>
 
@@ -867,4 +839,5 @@ please preview your site before committing, and make sure to run
     </li>
   </ol>
 </div>
+{% endcomment %}
 {% endcomment %}
