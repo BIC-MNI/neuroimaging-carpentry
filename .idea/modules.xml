@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2019-05-01-ttt-online.iml" filepath="$PROJECT_DIR$/.idea/2019-05-01-ttt-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../neuroimaging-training-01/.idea/neuroimaging-training-01.iml" filepath="$PROJECT_DIR$/../neuroimaging-training-01/.idea/neuroimaging-training-01.iml" />
+    </modules>
+  </component>
+</project>
