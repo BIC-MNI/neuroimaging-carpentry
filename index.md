@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: swc
+carpentry: cp
 country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 humandate: "June 1, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
@@ -242,6 +242,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+
+{% include sc/schedule.html %}
 
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
