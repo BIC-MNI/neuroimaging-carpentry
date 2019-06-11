@@ -188,11 +188,11 @@ please preview your site before committing, and make sure to run
 {% include lc/syllabus.html %}
 {% endif %}
 
-| Lessons        | Site                                                                                   | Repository                                                                            |   |   |
-|----------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| Neuroimaging 1 | [![Visit Website](/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
-| Neuroimaging 2 | [![Visit Website](/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
-| Neuroimaging 3 | [![Visit Website](/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
+| Lessons        | Site                                                                                       | Repository                                                                                |   |   |
+|----------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---|---|
+| Neuroimaging 1 | [![Visit Website](/fig/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
+| Neuroimaging 2 | [![Visit Website](/fig/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
+| Neuroimaging 3 | [![Visit Website](/fig/neurorgb.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
 
 <hr/>
 
