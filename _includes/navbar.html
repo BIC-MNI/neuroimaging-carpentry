@@ -38,11 +38,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-        {% comment %} Always show roadmap. {% endcomment %}
+        {% comment %} Always show roadmap. Tab added as per need. {% endcomment %}
         <li><a href="{{ page.root }}{% link roadmap.md %}">Roadmap</a></li>
 
-	{% comment %} Always show code of conduct. {% endcomment %}
-        <li><a href="{{ page.root }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
+	{% comment %} Always show code of conduct.
+        <li><a href="{{ page.root }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li> {% endcomment %}
 
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}

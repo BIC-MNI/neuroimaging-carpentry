@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4ca7de-7f50-48c4-bc22-232228866f6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_extras/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_extras/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state relative-caret-position="501">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -144,20 +140,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="2019-05-01-ttt-online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019-05-01-ttt-online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019-05-01-ttt-online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019-05-01-ttt-online" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019-05-01-ttt-online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019-05-01-ttt-online" type="462c0819:PsiDirectoryNode" />
-              <item name="fig" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="2019-05-01-ttt-online" type="b2602c69:ProjectViewProjectNode" />
               <item name="neuroimaging-training-01" type="462c0819:PsiDirectoryNode" />
@@ -621,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+        <state relative-caret-position="501">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
