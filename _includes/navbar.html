@@ -12,6 +12,11 @@
       </button>
 
       {% comment %} Select what logo to display. {% endcomment %}
+      {% comment %} Only display mni logo {% endcomment %}
+      <a href="{{ site.mni_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ page.root }}{% link /fig/neurorgb.png %}" alt="The MNI logo" />
+      </a>
+      {% comment %}
       {% if site.carpentry == "swc" %}
       <a href="{{ site.swc_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ page.root }}/assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
@@ -25,11 +30,11 @@
         <img class="navbar-logo" src="{{ page.root }}/assets/img/lc-icon-black.svg" alt="Library Carpentry logo" />
       </a>
       {% elsif site.carpentry == "cp" %}
-      {% comment %}{ updated cp logo and href to mni's}{%endcomment%}
-      <a href="{{ site.mni_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/fig/neurorgb.png" alt="The MNI logo" />
+      <a href="{{ site.carpentries_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ page.root }}/assets/img/cp-logo-blue.svg" alt="Carpentries logo" />
       </a>
       {% endif %}
+      {% endcomment %}
 
       {% comment %} Always show link to home page. {% endcomment %}
       <a class="navbar-brand" href="{{ page.root }}{% link index.md %}">Home</a>
