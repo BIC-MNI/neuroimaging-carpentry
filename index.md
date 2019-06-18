@@ -141,9 +141,11 @@ Modify the block below if there are any special requirements.
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
+{% comment%}
 <p id="code-of-conduct">
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
+{% endcomment%}
 
 
 {% comment %}
@@ -152,23 +154,16 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+{% comment%}
 <p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organizers have checked that:
+  <strong>Accessibility:</strong> We are committed to making this workshop accessible to everybody.
 </p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Ut tincidunt tincidunt erat. Aenean massa.
+
+Phasellus blandit leo ut odio. Donec posuere vulputate arcu. Maecenas malesuada. Nunc nec neque. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi.
 </p>
+{% endcomment%}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -245,6 +240,8 @@ Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
+
+{% comment%}
 <h2 id="schedule">Schedule</h2>
 
 {% include sc/schedule.html %}
@@ -256,6 +253,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+{% endcomment%}
 
 {% comment %}
 Collaborative Notes
