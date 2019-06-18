@@ -11,6 +11,7 @@ language: "EN"     # lowercase two-letter ISO language code such as "fr" (see ht
 instructor: ["multiple"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 #helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["jbpoline@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["jbpoline@gmail.com"]
 #etherpad:             # optional: URL for the workshop Etherpad if there is one
 #eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 {% comment %}
@@ -21,7 +22,7 @@ locations:
   - venue: "Grandpre auditorium"
     address: "Montreal"
     latlng: "41.7901128,-87.6007318"
-{% end comment %}
+{% endcomment %}
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -184,7 +185,7 @@ Display the contact email address set in the configuration file.
   <a href='mailto:{{email}}'>{{email}}</a>
   {% endfor %}
   {% else %}
-  to-be-announced
+  jbpoline@gmail.com
   {% endif %}
   for more information.
 </p>
