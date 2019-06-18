@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "ni"
+carpentry: ni
 country: "CA"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 #humandate: "June 1, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
@@ -37,7 +37,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 
-
+{% comment %}
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
@@ -45,6 +45,7 @@ You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code
 see the changes take effect locally.
 </div>
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 EVENTBRITE
