@@ -224,8 +224,8 @@ please preview your site before committing, and make sure to run
 | Lessons        | Site                                                                                                   | Repository                                                                                |   |   |
 |----------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---|---|
 | Neuroimaging 1 | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-01/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-01) |   |   |
-| Neuroimaging 2 | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-02/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-02) |   |   |
-| Neuroimaging 3 | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-03/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-03) |   |   |
+| Bash | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-02/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-02) |   |   |
+| Visualization | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-03/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-03) |   |   |
 | Neuroimaging 4 | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-04/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-04) |   |   |
 | Neuroimaging 5 | [![Visit Website](/fig/neuroimagerLogo28x32.png)](https://bic-mni.github.io/neuroimaging-training-05/) | [![Visit Repo](/fig/githubLogo.png)](https://github.com/BIC-MNI/neuroimaging-training-05) |   |   |
 
